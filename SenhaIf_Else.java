@@ -6,10 +6,10 @@ public class SenhaIf_Else {
         System.out.print("Ditige a senha: ");
         String senha = s.nextLine();
 
-        if (senha.equals("Oi")) {
-            System.out.println("Entrada aprovada");
+        if (senha.equals("movidoACafe")) {
+            System.out.println("ACESSO PERMITIDO");
         }else {
-            System.out.println("Entrada negada");
+            System.out.println("ACESSO NEGADO");
         }
     }
 }
