@@ -20,7 +20,7 @@ public class PlanetapesoIf_Else {
             System.out.print("ERRO");
         }
 
-        System.out.printf("O seu peso que é %.2f kg na terre, vira %.2f kg para onde você viajou",
+        System.out.printf("O seu peso que é de %.2f kg na Terra, viram %.2f kg para onde você viajou",
         peso, peso_lugar);
     }
 }
