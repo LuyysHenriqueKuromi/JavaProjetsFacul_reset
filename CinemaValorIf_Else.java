@@ -17,6 +17,24 @@ public class CinemaValorIf_Else {
 
         valor_ing = 0;
 
+        String dia_nome = "nulo";
+
+        if (dia == 1) {
+            dia_nome = "Segunda";
+        }else if (dia == 2) {
+            dia_nome = "Terça";
+        }else if (dia == 3) {
+            dia_nome = "Quarta";
+        }else if (dia == 4) {
+            dia_nome = "Quinta";
+        }else if (dia == 5) {
+            dia_nome = "Sexta";
+        }else if (dia == 6) {
+            dia_nome = "Sabado";
+        }else if (dia == 7) {
+            dia_nome = "Domingo";
+        }
+
         if (dia == 1 || dia == 2 || dia == 4) {
             valor_ing = 20;
         }else if (dia == 3) {
@@ -33,7 +51,7 @@ public class CinemaValorIf_Else {
             valor_final = valor_ing;
         }
 
-        System.out.printf("O ingresso vai custar R$%2.2f",
-        valor_final);
+        System.out.printf("O ingresso no dia de %s vai custar R$%2.2f",
+        dia_nome, valor_final);
     }
 }
