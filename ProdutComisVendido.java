@@ -22,7 +22,7 @@ public class ProdutComisVendido {
 
         double total_com = prod_vend * comi;
 
-        System.out.printf("O funcionario %s vai receber R$%2.2f de comição",
-        nome_func, total_com);
+        System.out.printf("O funcionario %s vai receber R$%2.2f de comição, sendo R$%2.2f por cada",
+        nome_func, total_com, comi);
     }
 }
